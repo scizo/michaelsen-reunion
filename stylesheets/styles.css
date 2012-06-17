@@ -136,7 +136,7 @@ html { background: #fff; }
 body {
   color: #4c4d4d;
   width: 100%;
-  max-width: 1400px;
+  max-width: 1440px;
   margin: 0 auto;
 }
 
@@ -145,7 +145,7 @@ body {
 }
 #nav li {
   float: left;
-  width: 25%;
+  width: 20%;
   text-align: center;
 }
 #nav a {
@@ -154,7 +154,11 @@ body {
   color: #4c4d4d;
 }
 
-#flags { width: 100%; }
+#flags,
+#food-line,
+#cake {
+  width: 100%;
+}
 
 #content { padding-left: 0.5em; }
 
@@ -164,7 +168,9 @@ body {
   font-size: 320%;
   float: left;
 }
-#title h1 span, #location {
+#title h1 span,
+#location,
+#menu li span {
   color: #0c559f;
 }
 
@@ -179,6 +185,18 @@ body {
 #location h3 {
   font-size: 110%;
 }
+
+#menu {
+  float: left;
+  width: 63%;
+}
+#menu p { font-size: 200%; }
+
+#treats {
+  float: right;
+  width: 36%;
+}
+
 
 body #invite {
   display: none;
