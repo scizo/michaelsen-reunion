@@ -17,10 +17,9 @@
     {{ content }}
     <script type="text/javascript">
       document.getElementById('print')
-      .addEventListener('click', function(e) {
+      .onclick = function() {
         window.print();
-        return false;
-      });
+      };
     </script>
     <div id="invite">
       Invitation Here!
