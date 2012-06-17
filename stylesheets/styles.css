@@ -142,12 +142,11 @@ body {
 
 #nav {
   width: 100%;
-  text-align: right;
 }
-#nav ul { float: right; }
 #nav li {
   float: left;
-  margin: 0 0.75em;
+  width: 25%;
+  text-align: center;
 }
 #nav a {
   font-size: 120%;
@@ -157,17 +156,18 @@ body {
 
 #content { padding-left: 0.5em; }
 
-#title {
-  margin-top: 0.5em;
-}
+#headline { font-size: 213% }
+
 #title h1 {
   font-size: 320%;
   float: left;
 }
-#title h1 span { color: #0c559f; }
+#title h1 span, #location {
+  color: #0c559f;
+}
 
 #location {
-  margin-right: 1em;
+  margin-left: 1em;
   padding-top: 0.5em;
   float: left;
 }
@@ -179,7 +179,7 @@ body {
 }
 
 body #invite {
-  visibility: hidden;
+  display: none;
 }
 
 
@@ -187,11 +187,9 @@ body #invite {
 -------------------------------------------------------------------------------*/
 @media print {
   body * {
-    visibility: hidden;
     display: none;
   }
   body #invite {
-    visibility: visible;
     display: block;
   }
 }
