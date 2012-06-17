@@ -135,8 +135,7 @@ mark {background-color: #fcd700; color: #000; font-style: italic; font-weight: b
 html { background: #fff; }
 body {
   color: #4c4d4d;
-  width: 100%;
-  max-width: 1440px;
+  width: 1019px;
   margin: 0 auto;
 }
 
@@ -159,8 +158,6 @@ body {
 #cake {
   width: 100%;
 }
-
-#content { padding-left: 0.5em; }
 
 #headline { font-size: 213% }
 
@@ -188,13 +185,13 @@ body {
 
 #menu {
   float: left;
-  width: 63%;
+  width: 62%;
 }
 #menu p { font-size: 200%; }
 
 #treats {
   float: right;
-  width: 36%;
+  width: 37%;
 }
 
 
