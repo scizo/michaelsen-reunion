@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Michaelsen Reunion</title>
+    <link href='http://fonts.googleapis.com/css?family=Oswald:400,700,300' rel='stylesheet' type='text/css'>
+    <link href="stylesheets/styles.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    <div id="nav" class="clearfix">
+      <ul>
+        <li><a href="food.html">food</a></li>
+        <li><a href="activities.html">activities</a></li>
+        <li><a href="info.html">info</a></li>
+        <li><a id="print" href="#">print invite</a></li>
+      </ul>
+    </div>
+    {{ content }}
+    <script type="text/javascript">
+      document.getElementById('print')
+      .addEventListener('click', function(e) {
+        window.print();
+        return false;
+      });
+    </script>
+    <div id="invite">
+      Invitation Here!
+    </div>
+  </body>
+</html>
