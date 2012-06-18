@@ -253,6 +253,11 @@ body {
   width: 44%;
 }
 
+#rsvp {
+  padding: 3em 10em;
+  text-align: center;
+}
+
 body #invite {
   display: none;
 }
