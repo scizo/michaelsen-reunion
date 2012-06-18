@@ -261,12 +261,27 @@ body #invite {
 /* Print styles!
 -------------------------------------------------------------------------------*/
 @media print {
-  body * {
+  body > * {
     display: none;
   }
   body #invite {
     display: block;
   }
+
+  h1 { font-size: 300%; }
+  h2 { font-size: 235%; }
+  h3 { font-size: 170%; }
+  h4 { font-size: 105%; }
+
+  p { margin-bottom: 1em; }
+  p.first { margin-top: 1em; }
+
+  #column1, #column2 {
+    width: 49.5%;
+  }
+  #column1 { float: left; }
+  #column2 { float: right; }
+
 }
 
 
