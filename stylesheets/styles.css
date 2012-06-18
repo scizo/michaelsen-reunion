@@ -118,8 +118,8 @@ body {font: 18px 'Oswald', Helmet, Freesans, sans-serif;}
 /* we like off-black for text */
 body, select, input, textarea {color: #333;}
 
-a {color: #03f;}
-a:hover {color: #69f;}
+a { color: #4c4d4d; }
+a:hover { color: #1c1c1d; }
 
 /* Custom text-selection colors (remove any text shadows: twitter.com/miketaylr/status/12228805301) */
 ::-moz-selection{background: #fcd700; color: #fff; text-shadow: none;}
@@ -144,7 +144,7 @@ body {
 }
 #nav li {
   float: left;
-  width: 20%;
+  width: 16.66%;
   text-align: center;
 }
 #nav a {
@@ -167,7 +167,8 @@ body {
 #title h1 span,
 #location,
 #menu li span,
-#treats p {
+#treats p,
+#details h3 {
   color: #0c559f;
 }
 
@@ -214,6 +215,43 @@ body {
   height: 199px;
 }
 
+.image-background {
+  color: #fff;
+  background-repeat: round;
+  background-size: cover;
+  text-align: center;
+  vertical-align: bottom;
+}
+#siblings {
+  background-image: url(../images/siblings.png);
+  width: 100%;
+  padding-top: 390px;
+  height: 30px;
+  margin-bottom: 1em;
+}
+#john-and-ella {
+  background-image: url(../images/john-and-ella.png);
+  float: right;
+  width: 339px;
+  padding-top: 217px;
+  height: 30px;
+}
+#information {
+  float: left;
+  width: 55%;
+}
+#information h1 {
+  font-size: 200%;
+  text-align: center;
+}
+#information p, #details p {
+  margin-bottom: 0.5em;
+}
+
+#details {
+  float: right;
+  width: 44%;
+}
 
 body #invite {
   display: none;
