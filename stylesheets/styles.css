@@ -154,8 +154,7 @@ body {
 }
 
 #flags,
-#food-line,
-#cake {
+#food-line {
   width: 100%;
 }
 
@@ -167,7 +166,8 @@ body {
 }
 #title h1 span,
 #location,
-#menu li span {
+#menu li span,
+#treats p {
   color: #0c559f;
 }
 
@@ -192,6 +192,26 @@ body {
 #treats {
   float: right;
   width: 37%;
+  height: 367px;
+}
+#treats p {
+  text-align: center;
+  font-size: 150%;
+}
+
+#cake, #cupcakes {
+  float: left;
+}
+#cake, #raspberries {
+  width: 49.5%;
+  height: 35%;
+}
+#raspberries {
+  float: right;
+}
+#cupcakes {
+  width: 100%;
+  height: 199px;
 }
 
 
