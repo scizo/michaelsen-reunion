@@ -258,6 +258,33 @@ body {
   text-align: center;
 }
 
+#activities #details {
+  width: 100%;
+}
+#activities h1 {
+  font-size: 400%;
+  text-align: center;
+  vertical-align: center;
+  float: left;
+  width: 50%;
+}
+#activities img {
+  float: left;
+  height: 300px;
+}
+#activities #swinging,
+#activities #dancing,
+#activities #talking {
+  margin-right: 0.5%;
+}
+#activities #swinging { width: 39%; }
+#activities #dancing { width: 25.5%; }
+#activities #exploring { width: 34.5%; }
+#activities #talking,
+#activities #friends {
+  width: 49.75%;
+}
+
 body #invite {
   display: none;
 }
